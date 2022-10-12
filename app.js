@@ -5,7 +5,7 @@ const getColor = () => {
     document.body.style.backgroundColor = randomCode;
     document.getElementById("color-code").innerHTML = randomCode;
 
-    navigator.clipboard.writeText(randomCode)
+   
 }
 
 // event call:
