@@ -38,3 +38,14 @@ button {
     background-color: #000;
     color: #fff;
 }
+
+@media (max-width: 628px) {
+    .container {
+        width: 15rem;
+        padding: 0.325rem;
+        border-radius: 0.325rem;
+        background-color: #fff;
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}
